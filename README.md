@@ -1,0 +1,1 @@
+Repositorio criado com intuito de estudar golang
