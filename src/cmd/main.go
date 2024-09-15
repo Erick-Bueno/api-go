@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/api/routes"
+	"github.com/Erick-Bueno/go-api/routes"
 	"github.com/gin-gonic/gin"
 )
 func main (){

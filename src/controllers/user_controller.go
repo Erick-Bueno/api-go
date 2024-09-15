@@ -2,7 +2,7 @@ package controllers
 
 import(
 	"net/http"
-	"github.com/api/model"
+	"github.com/Erick-Bueno/go-api/model"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )

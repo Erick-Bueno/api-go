@@ -2,7 +2,7 @@ package routes
 
 import (
 
-	"github.com/api/controllers"
+	"github.com/Erick-Bueno/go-api/controllers"
 	"github.com/gin-gonic/gin"
 )
 
