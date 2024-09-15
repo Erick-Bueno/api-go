@@ -1,7 +1,7 @@
+package model
 import (
 	"github.com/google/uuid"
 )
-package model
 
 type User struct{
 	ID int `json:"id"`
