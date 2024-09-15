@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Erick-Bueno/go-api/routes"
 	"github.com/gin-gonic/gin"
+	"github.com/Erick-Bueno/go-api/routes"
 )
 func main (){
 	server := gin.Default()
