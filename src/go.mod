@@ -1,4 +1,4 @@
-module github.com/api
+module github.com/Erick-Bueno/go-api
 
 go 1.22.6
 
