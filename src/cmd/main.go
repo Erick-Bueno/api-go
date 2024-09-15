@@ -1,5 +1,9 @@
 package main
-import "fmt"
+
+import (
+	"github.com/gin-gonic/gin"
+)
 func main (){
-	fmt.Println("ola mundo")
+	server := gin.Default()
+	server.Run(":8080")
 }
