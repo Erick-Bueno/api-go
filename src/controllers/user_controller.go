@@ -3,6 +3,7 @@ package controllers
 import(
 	"net/http"
 	"github.com/Erick-Bueno/go-api/model"
+	"github.com/Erick-Bueno/go-api/services"
 	"github.com/gin-gonic/gin"
 	"github.com/google/uuid"
 )
@@ -10,6 +11,7 @@ import(
 
 //server pra definirmos as dependencias que vamos ter no nosso controller como por exemplo os services, e o equivalente a nossa classe controller em poo
 type UserController struct{
+	userService services.UserServiceInterface
 }
 //essa funcao representa o construtor que no caso seria o construtor da nossa classe controller se estivessemos em poo
 func NewUserController() UserController {
