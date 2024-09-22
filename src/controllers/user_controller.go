@@ -14,8 +14,10 @@ type UserController struct{
 	userService services.UserServiceInterface
 }
 //essa funcao representa o construtor que no caso seria o construtor da nossa classe controller se estivessemos em poo
-func NewUserController() UserController {
-	return UserController{}
+func NewUserController(userService services.UserServiceInterface) UserController {
+	return UserController{
+		userService: userService,
+	}
 }
 //representa o metodo da nossa classe, nesse caso get producs
 func (u *UserController) GetUsers(ctx *gin.Context){
